@@ -1,0 +1,218 @@
+
+
+
+ /* .conteaner{
+    direction: ltr;
+    margin: 5px 100px ; 
+   
+ }
+
+.header_submint{
+       
+    width: 100%; 
+    background-color: #577E73;
+    min-height: 110px; 
+    position: relative; 
+    box-shadow: 0px 7px 16px -1px #60946e;
+
+}  */
+.requiredStar{
+    color: red;
+    margin-right: 5px;
+}
+ 
+.containerWrapper {
+    max-width: 750px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title_page {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .requiredStar {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .complaint_Content {
+    direction: rtl;
+  }
+  
+  .resizeBoth {
+    resize: both;
+  }
+  
+
+
+
+
+
+ 
+
+.prev_Complint{
+    padding: 10px; 
+    color:  black;
+    font-size: 20px ;
+    font-weight: bold;   
+    text-decoration: none;
+
+}
+
+.links_Citezen {
+  display: inline;
+  padding: 10px; 
+  margin: 10px;
+
+  background-color: #6B99B1; 
+  border-radius: 50px; 
+
+  position: absolute; 
+  top: 20px; 
+  right: 300px;  
+  
+  
+}
+
+.links_Citezen:hover{
+    
+    background-color: #52656E;
+    transition: 0.9s; 
+}
+
+.info_Date_time{
+
+    display: inline-flex; 
+    gap: 70px;  
+    padding: 10px; 
+
+}
+
+.info span{
+
+   color: white; 
+   font-size: 19px; 
+   font-weight: bold; 
+   padding: 10px; 
+   
+   margin: 10px;
+    
+} 
+
+
+form{
+
+    padding: 10px; 
+    width: 100%; 
+    text-align:start;
+
+   
+}
+
+form  >  input{
+    padding: 10px;
+    width: 600px; 
+    font-size: 20px; 
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+input,label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form  > select{
+    padding: 10px; 
+    width: 250px; 
+    margin-bottom: 5px; 
+    font-size: 19px; 
+}
+
+form >  label{
+    
+    font-size: 19px; 
+    font-weight: bold; 
+    margin-left: 10px;  
+
+
+} 
+form >textarea{
+    font-size: 19px; 
+    font-weight: bold; 
+}
+ 
+.complaint_Content{
+      
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 20px;
+  background-color: #f9f9f9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ 
+.title_page{
+    text-align: center; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+
+}
+
+form > button{
+    padding: 10px; 
+   
+    height: 50px;
+    width: 100%;;
+    
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #60946e !important; 
+    border: none; 
+    outline: none; 
+    border-radius: 30px;
+    cursor: pointer;
+}
+.submitButton{
+  padding: 10px; 
+   
+  height: 50px;
+  width: 100%;;
+  
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #60946e !important; 
+  border: none; 
+  outline: none; 
+  border-radius: 30px;
+  cursor: pointer;
+} 
+.submitButton:hover{
+   background-color: #52656E;
+   transition: 0.9s; 
+   margin-top: 5px;
+}
+
+form > button:hover{
+   background-color: #52656E;
+   transition: 0.9s; 
+   margin-top: 5px;
+} 
+ 
+
+form > label{
+    margin-top: 5px;
+}
+
+
+.phoneInputWrapper{
+  width: 300px;
+}

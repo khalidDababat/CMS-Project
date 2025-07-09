@@ -1,0 +1,146 @@
+.home_header {
+  width: 100%;
+  background-color: #577E73;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #4b6e61;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  flex-wrap: wrap;
+}
+
+.header_logo {
+  display: flex; 
+  align-items: center;
+}
+
+.header_logo a{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+}
+
+.header_logo h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+} 
+.header_logo span {
+  font-size: 0.8rem;
+  color: white
+}
+ 
+.icon {
+  margin-left: 8px;
+  font-size: 1.1rem;
+}
+
+.active a {
+  color: yellowgreen;
+  font-weight: 600;
+}
+
+
+.action {
+  display: flex;
+  gap: 20px;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.action a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.action a:hover {
+  background-color: #4a6e61;
+}
+
+/* ✅ Responsive for small screens */
+@media (max-width: 768px) {
+  .home_header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .header_logo {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .action {
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .action a {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+}
+
+
+
+
+.mobileMenuButton {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .mobileMenuButton {
+    display: block;
+  }
+
+  .nav {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: calc(100vh - 70px);
+    background-color: white;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 99;
+  }
+
+  .nav.open {
+    right: 0;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav li {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .nav a, .logoutButton {
+    font-size: 1.1rem;
+    padding: 10px 0;
+  }
+}

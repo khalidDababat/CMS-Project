@@ -1,0 +1,274 @@
+
+body{
+    
+    height: 100vh;
+} 
+
+
+    
+
+.header_Admin{
+ 
+
+    margin: 0 auto;
+    height: 90px;
+    padding: 0 0 0 calc(24px * .5);
+    background-color: #FFFFFF; 
+
+    display: flex; 
+    justify-content: space-between;  
+    z-index: 23;
+    border-bottom: 2px solid #dad9d8;
+    
+
+}
+
+
+
+.navbar_toggler{
+    
+    border: none;
+    background: white;
+
+} 
+.navbar_toggler:hover{
+    background: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} 
+
+.btn_bell{
+    background: none;
+    border: none;
+    margin-top: 10px; 
+    padding: 0px 2px;
+    width: 40px;
+    position: relative; 
+}
+
+.btn_bell:hover{
+    background:none;
+}
+
+.btn_bell span{
+   position: absolute; 
+   top: 8px;
+   left: -15px;
+   width: 25px;
+   border-radius: 5px;
+} 
+
+.btn_user {
+    background: none;
+    border: none;
+    
+    position: relative;
+}
+.btn_user:hover{
+    background: none;
+    transition: none;
+} 
+
+.item{
+    margin: 5px; 
+    background-color: #577e73; 
+    height: 130px;
+  }
+
+  
+
+  
+
+  .logoImage{
+    width: 140px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  .content{
+    position: absolute;
+    right: 500px;
+    top: 110px;
+  } 
+/* ***************************************************** */
+
+.conteant_page{
+ 
+    display: grid; 
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    min-height: 100vh;
+
+}
+.side_lists{
+
+    background-color: white; 
+    width: 240px; 
+    min-height: 100vh; 
+    z-index: 23;
+    padding: 0px 10px;
+   
+   
+   
+
+  }  
+
+  /* .side_lists ul{
+
+    list-style: none;
+     
+  }
+
+  .side_lists ul li{
+
+    margin-bottom: 15px; 
+    font-size: 18px; 
+    font-weight: bold;
+
+    display: flex; 
+    padding: 2px 2px;
+    
+  }
+  .side_lists ul li a{
+    text-decoration: none;
+    color: black;
+
+    
+  } 
+ 
+  .side_lists ul li a:hover{
+    border-bottom: 2px solid #000000; 
+   
+  } */
+
+  .side_lists ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center; /* لمحاذاة الأيقونات والنص بشكل عمودي متساوي */
+    gap: 8px; /* مسافة بين النص وعدد الإشعارات */
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .side_lists ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%; /* حتى يمتلئ عنصر القائمة بالكامل */
+  }
+  
+  .side_lists ul li a:hover {
+    background-color: #ced2d1; /* نفس لون الخلفية للمربعات */
+    color: white;
+    padding: 3px;
+  }
+  
+  .notify_complaint {
+    background-color: red;
+    border-radius: 50%;
+    padding: 2px 8px;
+    color: white;
+    font-size: 14px;
+    min-width: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+  } 
+
+
+
+
+  .conteant_page div h2{
+    margin-bottom: 23px;
+    margin-top: 40px;
+    margin-right: 71px;
+  }
+
+  .DashBourd{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    gap:2px;  
+    margin-top: 40px;
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: #dad9d8; */ 
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+  
+  } 
+  .DashBourd > div{
+    background-color: #577e73;
+    border: 2px solid black; 
+    border-radius: 40px;
+  } 
+
+  .search_Complint form{
+    margin-right: 100px;
+  }
+   
+/* .notify_complaint{
+  margin-right: 38px; 
+  background-color: red;
+  border-radius: 50%;
+  padding: 2px;
+  color: white;
+  width: 2px;
+  font-size: 16px;
+  
+}  */
+
+
+.massege{
+  width: 100px; 
+  position: fixed; 
+  right: 0px; 
+  top: 50px;
+  display: inline; 
+  z-index: 212; 
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+.main_conteaner{
+
+  display: grid; 
+  grid-template-columns: 1fr 5fr ;
+  gap: 5px; 
+  
+}
+
+  
+.requred_star{
+  color: red; 
+  font-weight: bold;
+}   
+
+
+.conteaner_btn{
+   
+  display: flex; 
+  justify-content: space-between;
+
+
+
+}
+ 
+  
+  

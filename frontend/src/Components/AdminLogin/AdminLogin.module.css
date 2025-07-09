@@ -1,0 +1,193 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+ .conteaner{
+
+  direction: ltr;
+ }
+ 
+ body{
+    
+    /* display: flex; */
+    font-family: "Poppins", sans-serif; 
+    
+}
+
+.side{
+
+    background-color: #577E73;
+    height: 100vh; 
+    position: relative;
+} 
+
+.side_img{
+
+    width: 200px;
+    height: 210px;
+    margin: 5px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 121;
+} 
+
+
+
+  
+  /* .side {
+    background-color: #577E73;
+    width: 400px;
+    height: 100%;
+    
+  } */
+  
+  
+  
+ 
+  .conteaner {
+    flex: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    width: 965px;
+    position: absolute;
+    right: 0px;
+    top: 0pc;
+    height: 100vh;
+  }
+  
+  /* .conteaner h2 {
+    margin-bottom: 25px;
+    color: #333;
+  } */
+  .heading_Conteaner{
+    margin-bottom: 25px;
+    color: #333;
+  }
+
+  
+  .Login-App {
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Login-App > div {
+    margin-bottom: 15px; 
+    
+  }
+  
+  /* .selected{
+    margin-bottom: 5px;
+  }
+  .selected select{
+    padding: 10px;
+    width: 100%;
+    font-weight: bold; 
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+    
+  } */
+.selected_Login{
+
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+  }
+  .input_field{
+     width: 100%;
+     padding: 10px;
+     font-size: 15px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     transition: 0.3s;
+  }
+  
+  
+  input:focus {
+    border-color: #577E73;
+    outline: none;
+  }
+  
+  
+  .forget_password span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .forget_password a {
+    color: #577E73;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .forget_password a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #577E73;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  } */
+   
+.login_btn{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #577E73;
+  color: black;
+  border-radius: 6px;
+  font-size: 18px; 
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+  button:hover {
+    background-color: #42665d;
+  } 
+
+  .copyright_area{
+    background-color: #202020; 
+    height: 60px; 
+
+
+  }
+  .copyright_area p{
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+
+
+  }
+  
+ 

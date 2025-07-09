@@ -1,0 +1,92 @@
+.footerWrapper {
+  background-color: #577E73;
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+}
+
+.contactSection {
+  padding: 3rem 1rem 2rem;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  direction: rtl;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.loginButton {
+  background-color: #ffffff22;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #46665c;
+}
+
+.loginIcon {
+  font-size: 1rem;
+}
+
+.contactGrid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: start;
+  gap: 2rem;
+
+  width: 900px;
+  margin-right: 15px;
+}
+
+.contactItem {
+  max-width: 200px;
+}
+
+.icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.contactItem h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contactItem p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.bottomBar {
+  background-color: #111;
+  color: #ccc;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
